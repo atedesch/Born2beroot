@@ -17,6 +17,7 @@ OpenSSH offre diverse funzionalità, tra cui:
 1. Accesso remoto sicuro: Gli utenti possono connettersi a un server SSH in remoto da qualsiasi luogo e interagire con il sistema come se fossero fisicamente presenti davanti ad esso. La connessione è protetta da cifratura per proteggere i dati sensibili scambiati tra il client e il server.
 2. Trasferimento sicuro dei file: OpenSSH include anche strumenti come scp (Secure Copy Protocol) e sftp (Secure File Transfer Protocol) per il trasferimento sicuro di file tra il client e il server SSH. Anche queste operazioni sono protette da crittografia per garantire la sicurezza dei dati.
 3. Tunneling: OpenSSH consente di creare tunnel crittografati tra il client e il server per instradare altre connessioni attraverso di esso. Questo è utile per accedere a servizi interni di una rete remota in modo sicuro.
+
 OpenSSH è ampiamente utilizzato in sistemi operativi Unix-like (come Linux e BSD) e viene fornito di default in molte distribuzioni Linux. È una componente essenziale per gestire in modo sicuro i server e gli altri dispositivi remoti su una rete.
 
 
