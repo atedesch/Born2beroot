@@ -10,15 +10,7 @@ Il comando hostname in Linux viene utilizzato per visualizzare o impostare il no
 ```bash
 sudo hostname nuovo_hostname
 ```
-3. Impostare l'hostname permanentemente: Per impostare l'hostname in modo permanente, è necessario modificare il file /etc/hostname con un editor di testo e inserire il nuovo nome host.
-```bash
-hostname
-```
-Dopo aver salvato il file, è anche una buona idea aggiornare il file /etc/hosts per riflettere il nuovo hostname.
 
-
-
-L'hostname è importante per la gestione e la configurazione dei sistemi in una rete e può essere utilizzato per identificare univocamente ciascun dispositivo.
 
 ## su
 Il comando su su Linux (e su altri sistemi Unix-like) è utilizzato per acquisire temporaneamente i privilegi di un altro utente. Di solito, viene utilizzato per diventare l'utente "root", che ha accesso completo a tutti i file di sistema e alle operazioni di amministrazione.
