@@ -8,7 +8,9 @@ Il comando hostname in Linux viene utilizzato per visualizzare o impostare il no
 1. Visualizzare l'hostname: Puoi utilizzare il comando hostname senza alcun argomento per visualizzare semplicemente il nome host corrente del sistema.
 2. Impostare l'hostname: Puoi utilizzare il comando hostname con l'opzione -b o --set seguita dal nuovo nome host per cambiarlo temporaneamente. Tuttavia, questa modifica non sarà permanente dopo il riavvio del sistema.
 3. Impostare l'hostname permanentemente: Per impostare l'hostname in modo permanente, è necessario modificare il file /etc/hostname con un editor di testo e inserire il nuovo nome host.
-``` hostname```
+```bash
+hostname
+```
 Dopo aver salvato il file, è anche una buona idea aggiornare il file /etc/hosts per riflettere il nuovo hostname.
 
 
