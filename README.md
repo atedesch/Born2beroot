@@ -20,7 +20,16 @@ OpenSSH offre diverse funzionalità, tra cui:
 
 OpenSSH è ampiamente utilizzato in sistemi operativi Unix-like (come Linux e BSD) e viene fornito di default in molte distribuzioni Linux. È una componente essenziale per gestire in modo sicuro i server e gli altri dispositivi remoti su una rete.
 
+# port 4242
+Le "porte da ascoltare" si riferiscono alle porte su un computer che sono aperte e in ascolto per le connessioni in entrata. Le porte sono numeri di identificazione numerica associati a un servizio specifico o a un'applicazione su un host di rete.
 
+Nel contesto di un server, come ad esempio un server web o un server SSH, le porte da ascoltare rappresentano i canali attraverso i quali altri computer possono comunicare con quel server. Ogni servizio o applicazione ha una porta specifica a cui è associato di default. Ad esempio:
+
+- Il servizio web di default (HTTP) ascolta sulla porta 80 o sulla porta 443 per le connessioni non sicure e sicure, rispettivamente.
+- Il servizio SSH ascolta di default sulla porta 22.
+- Il servizio FTP ascolta sulla porta 21.
+
+Le porte da ascoltare sono essenziali per consentire ai client di comunicare con i server e di accedere ai servizi offerti da questi ultimi. Tuttavia, è importante comprendere che le porte possono essere cambiate o personalizzate per adattarsi alle esigenze specifiche dell'ambiente di rete o per aumentare la sicurezza. Ad esempio, per motivi di sicurezza, potresti voler cambiare la porta predefinita di un servizio noto per una porta meno nota per ridurre il rischio di attacchi da parte di hacker.
 
 
 
